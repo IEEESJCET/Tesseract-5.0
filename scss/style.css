@@ -430,8 +430,8 @@ input:required {
   top: 0;
   left: 0;
   background: #f92525;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -794,8 +794,8 @@ input:required {
   left: -10%;
   content: "";
   background: #f92525;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
   z-index: -2;
 }
 .confer-gb-btn::after {
@@ -1185,7 +1185,7 @@ input:required {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #07132c;
+  background-color: #111343;
 }
 .footer-area .row {
   margin-left: -30px;
@@ -1256,13 +1256,6 @@ input:required {
 }
 .main-footer-area .single-footer-widget .footer-contact-info p:last-child {
   margin-bottom: 0;
-}
-.main-footer-area .single-footer-widget .footer-contact-info-2 {
-  position: relative;
-  z-index: 1;
-}
-.main-footer-area .single-footer-widget .footer-contact-info-2 a {
-  color: #9293bc;
 }
 .main-footer-area .single-footer-widget .footer-nav {
   position: relative;
@@ -1995,8 +1988,8 @@ input:required {
 .blog-btn a {
   height: 51px;
   width: 51px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+  background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
   text-align: center;
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -3205,6 +3198,7 @@ input:required {
   position: relative;
   z-index: 1;
   width: 100%;
+  background-color: #ffffff;
 }
 .our-sponsor-area .single-sponsor {
   border: 1px solid #444675;

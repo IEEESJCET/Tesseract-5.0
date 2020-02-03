@@ -8,8 +8,10 @@
     top: 0;
     left: 0;
     background: $primary;
-    background-image: -webkit-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
-    background-image: -ms-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
+    // background-image: -webkit-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
+    // background-image: -ms-linear-gradient(120deg, rgb(80, 90, 221) 0%, rgb(223, 66, 177) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,19,44,1) 24%, rgba(249,37,37,1) 61%); 
     @include display-flex(flex);
     @include align-items-center;
     @include justify-content-center;
