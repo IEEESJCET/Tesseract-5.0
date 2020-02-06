@@ -646,8 +646,8 @@ input:required {
   left: -10%;
   content: "";
   background: #f92525;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background: #b52525;
+  background: linear-gradient(90deg, #b52525 7%, #f92525 52%, #f92525 100%);
   z-index: -2;
 }
 .confer-btn:focus, .confer-btn:hover {
@@ -794,8 +794,8 @@ input:required {
   left: -10%;
   content: "";
   background: #f92525;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background: #b52525;
+  background: linear-gradient(90deg, #b52525 7%, #f92525 52%, #f92525 100%);
   z-index: -2;
 }
 .confer-gb-btn::after {
@@ -1108,6 +1108,7 @@ input:required {
   margin-bottom: 50px;
   text-transform: uppercase;
   display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 10px 20px;
   font-size: 18px;
 }
@@ -1995,8 +1996,8 @@ input:required {
 .blog-btn a {
   height: 51px;
   width: 51px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+  background: #b52525;
+  background: linear-gradient(90deg, #b52525 7%, #f92525 52%, #f92525 100%);
   text-align: center;
   border: 2px solid #ffffff;
   border-radius: 50%;
