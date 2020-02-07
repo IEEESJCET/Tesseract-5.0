@@ -226,7 +226,7 @@
     // ****************************
     if ($.fn.countdown) {
         $("#clock").countdown("2020/03/20 09:00:00", function (event) {
-            $(this).html(event.strftime("<div>%m <span>Months</span></div> <div>%d <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));
+            $(this).html(event.strftime("<div>%D <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));
         });
     }
 
@@ -235,7 +235,7 @@
     // ****************************
     if ($.fn.scrollUp) {
         confer_window.scrollUp({
-            scrollSpeed: 1000,
+            scrollSpeed: 1,
             scrollText: '<i class="arrow_carrot-up"</i>'
         });
     }
