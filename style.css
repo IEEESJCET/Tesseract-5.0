@@ -500,7 +500,6 @@ input:required {
   font-size: 38px;
   color: #ffffff;
   margin-bottom: 0;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 @media only screen and (max-width:767px) {
