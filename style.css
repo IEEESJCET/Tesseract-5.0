@@ -431,7 +431,7 @@ input:required {
   left: 0;
   background: #f92525;
   background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #07132c 24%, #f92525 61%);
+ 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
